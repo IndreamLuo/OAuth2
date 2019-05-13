@@ -28,6 +28,7 @@
     <ProjectReference Include="..\OAuth2.Application\OAuth2.Application.csproj" />
     <ProjectReference Include="..\OAuth2.Data\OAuth2.Data.csproj" />
     <ProjectReference Include="..\OAuth2.Common\OAuth2.Common.csproj" />
+    <ProjectReference Include="..\OAuth2.Web.Application\OAuth2.Web.Application.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
